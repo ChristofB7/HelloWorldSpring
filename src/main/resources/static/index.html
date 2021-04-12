@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+
+<head>
+    <title>Hello, World!</title>
+</head>
+<body>
+<!-- in the form action you have /hello which will submit the name text field to the page hello.html-->
+<!-- user? is the attribute -->
+<form action="/hello" method="get">
+    <b>Name: </b>
+    <!-- using the java variable name -->
+    <input type="text" name="name"/>
+    <input type="submit" value="Say Hello">
+</form>
+
+</body>
+</html>
